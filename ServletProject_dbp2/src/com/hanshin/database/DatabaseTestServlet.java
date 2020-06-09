@@ -91,7 +91,7 @@ public class DatabaseTestServlet extends HttpServlet {
 	            rs = st.executeQuery(sql);
 	            out.print("<html><head><title>post</title></head>");
 				out.print("<body>");
-				out.print("<h1>업데이트 성공!</h1>");
+				out.print("<h1>전체 DB 보기</h1>");
 	            while(rs.next()) {
 					out.print("ID : " + rs.getString("id") );
 					out.print(" 이름 : " + rs.getString("name"));
